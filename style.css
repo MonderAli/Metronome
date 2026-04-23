@@ -29,7 +29,10 @@ body{
 /* Header */
 h1{
 	width:100%;
+	position: absolute;
 	text-align:center;
+	top: 100px;
+	right: 200px;
 	margin:0;
 
 	padding:1rem;
