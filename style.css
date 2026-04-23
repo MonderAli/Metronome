@@ -49,6 +49,7 @@ h1{
 /* Controls container */
 #controls{
 	display:inline-flex;
+	top: 300px;
 	flex-wrap:wrap;
 	align-items:center;
 	justify-content:center;
