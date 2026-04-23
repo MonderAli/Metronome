@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
+
     <link rel="icon" href="background.png">
-    <meta name="google-site-verification" content="haogmfMN_N1AMciVLvg_w_-kTYHCAHjxURSWqRzXqwA" /><meta name="google-site-verification" content="haogmfMN_N1AMciVLvg_w_-kTYHCAHjxURSWqRzXqwA" />
-    <meta name="description" content="A simple online metronome with adjustable BPM and time signature. Accent the first beat and change tempo presets. by Monder Ali">
     <link rel="manifest" href="manifest.json">
+
     <meta name="theme-color" content="#45986e">
-    <!-- iOS / Apple tags -->
+    <meta name="description" content="A simple online metronome with adjustable BPM and time signature.">
+
+    <!-- iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Online Metronome">
     <link rel="apple-touch-icon" href="appIcon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="appIcon.png">
+
     <link rel="stylesheet" href="style.css">
-    <title>Online Metronome </title>
+
+    <title>Online Metronome</title>
 </head>
+
 <body>
-    <h1>Online Metronome by Monder Ali</h1>
-    
+
+    <h1>Online Metronome</h1>
+
     <div id="controls">
-        <br>
+
         <button id="start">Start</button>
 
         <div class="bpm-row">
             <label for="bpm">BPM:</label>
             <input type="number" id="bpm" value="120">
+
             <label for="tempoPreset">Tempo:</label>
             <select id="tempoPreset">
                 <option value="">— Preset —</option>
@@ -47,7 +53,7 @@
         <div class="timesig-row">
             <label for="numerator">Time Signature</label>
             <input id="numerator" type="number" value="2">
-            <p>/</p>
+            <span>/</span>
             <select id="denominator">
                 <option value="2">2</option>
                 <option value="4">4</option>
@@ -55,9 +61,10 @@
                 <option value="16">16</option>
             </select>
         </div>
+
     </div>
 
-
     <script src="script.js"></script>
+
 </body>
 </html>
