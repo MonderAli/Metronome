@@ -31,7 +31,7 @@ h1 {
 }
 
 /* Target specific labels and text to ensure they inherit the green color */
-label, span, p {
+ span, p {
     color: #45986e !important;
 }
 
