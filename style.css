@@ -15,6 +15,9 @@ body {
     background-repeat: repeat; /* Forces the background to repeat */
 }
 
+label{
+    color: white;
+
 /* Header */
 h1 {
     text-align: center;
