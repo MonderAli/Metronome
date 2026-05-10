@@ -19,6 +19,14 @@ label{
     color: white;
 }
 
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    order: 0;
+}
+
 /* Header */
 h1 {
     text-align: center;
@@ -28,6 +36,17 @@ h1 {
     line-height: 1.1;
     font-weight: 800;
     color: #45986e; /* Updated color */
+	display: flex;
+}
+
+#dodo {
+    height: 250px;
+    display: flex;
+    width: 250px;
+    align-self: center;
+    order: 1;
+    fill: #45986e;
+    /* removed top: 200px and lowered the spacing above #dodo */
 }
 
 
